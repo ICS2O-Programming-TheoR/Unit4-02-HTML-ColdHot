@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="How Hot is it Today">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Theo Rafuse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="shortcut icon" href="./images/thermometer-with-hot-cold-temperature.AVIF">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>How Hot is it Today</title>
+  </head>
+    <body>
+    <script src="./js/script.js"></script>
+    <h1>How Hot is it Today</h1>
+    <img src="./images/cold-hot.JPEG" alt="E">
+      <!-- This is the code telling what the temperature is -->
+      <p>
+      <h3>Please Input the Temperature today:</h3>
+      <form action="javascript:whatsTheTemperature()">
+        <label for="temp-info">The Temperature:</label>
+        <input type="number" id="temp-info" placeholder="Temperature" step="1"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </p>
+    <!-- Create a space where the user information will be displayed -->
+    <div id="temp-amount"></div>
+    <p></p>
+      
+  </body>
+</html>
